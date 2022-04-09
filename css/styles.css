@@ -27,7 +27,8 @@ color: #000000;
 .logo-studio-bot {
 color: #FFFFFF;
 }
-.navigation {color: #212121;}
+.list {list-style: none;}
+.navigation {color: #212121; text-decoration: none;}
 .navigation:hover {color: #2196F3;}
 .contacts {color: #757575; text-decoration: none;}
 .contacts:hover {color: #2196F3;}
@@ -77,6 +78,7 @@ line-height: 1.15;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
+list-style: none;
 }
 .text {
 text-transform: none;
