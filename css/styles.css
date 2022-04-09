@@ -1,1 +1,76 @@
-body {background-color: #E5E5E5;}
+body {background-color: #FFFFFF; font-style: normal; font-family: 'Roboto';}
+.header {background-color: #FFFFFF;}
+.footer {
+background-color: #2F303A;
+font-weight: 400;
+font-size: 14px;
+font-style: normal;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.navigation {color: #212121;}
+.navigation:hover {color: #2196F3;}
+.contacts {color: #757575; text-decoration: none;}
+.contacts:hover {color: #2196F3;}
+.hero {
+background-color: #2F303A;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.button {
+background-color: #2196F3;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+.header-text {
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.text {
+text-transform: none;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.second-header {
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.employee {
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.position {
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
