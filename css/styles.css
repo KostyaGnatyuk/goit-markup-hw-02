@@ -1,12 +1,30 @@
-body {background-color: #FFFFFF; font-style: normal; font-family: 'Roboto';}
-.header {background-color: #FFFFFF;}
-.footer {
+all-page {background-color: #FFFFFF; font-style: normal; font-family: Roboto, Tahoma, sans-serif;}
+.top {background-color: #FFFFFF;}
+.bottom {
 background-color: #2F303A;
 font-weight: 400;
 font-size: 14px;
 font-style: normal;
 line-height: 24px;
 letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-decoration: none;
+}
+.logo-web {
+color: #2196F3;
+}
+.logo-studio {
+color: #000000;
+}
+.logo-studio-bot {
 color: #FFFFFF;
 }
 .navigation {color: #212121;}
@@ -33,6 +51,24 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
+}
+.button:hover {
+cursor: pointer;
+}
+.button-portfolio {
+background-color: #F5F4FA;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+font-family: 'Roboto';
+}
+.button-portfolio:hover {
+color: #FFFFFF;
+background-color: #2196F3;
+cursor: pointer;
 }
 .header-text {
 font-weight: 700;
