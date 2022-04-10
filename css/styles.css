@@ -1,17 +1,23 @@
-all-page {background-color: #FFFFFF; font-style: normal; font-family: Roboto, Tahoma, sans-serif;}
-.top {background-color: #FFFFFF;}
+.all-page {
+background-color: #FFFFFF; 
+font-style: normal; 
+font-family: 'Roboto', 'Raleway', sans-serif;
+text-decoration: none;
+}
+.top {
+background-color: #FFFFFF;
+}
 .bottom {
 background-color: #2F303A;
 font-weight: 400;
 font-size: 14px;
-font-style: normal;
 line-height: 1.7;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+text-decoration: none;
 }
 .logo {
 font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
@@ -27,13 +33,35 @@ color: #000000;
 .logo-studio-bot {
 color: #FFFFFF;
 }
-.list {list-style: none;}
-.navigation {color: #212121; text-decoration: none;}
-.navigation:hover {color: #2196F3;}
-.contacts {color: #757575; text-decoration: none;}
-.contacts:hover {color: #2196F3;}
+.list {
+list-style: none;
+}
+.navigation {
+color: #212121; text-decoration: none;
+}
+.navigation:hover {
+color: #2196F3;
+}
+.contacts {
+color: #757575; text-decoration: none;
+}
+.contacts:hover {
+color: #2196F3;
+}
+.contacts-bottom {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+font-style: normal;
+}
+.contacts-bottom:hover {
+color: #2196F3;
+}
 .hero {
 background-color: #2F303A;
+}
+.hero-title {
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -58,7 +86,6 @@ cursor: pointer;
 }
 .button-portfolio {
 background-color: #F5F4FA;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
@@ -76,13 +103,18 @@ font-weight: 700;
 font-size: 14px;
 line-height: 1.15;
 letter-spacing: 0.03em;
-text-transform: uppercase;
 color: #212121;
 list-style: none;
 }
+.ideas {
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
 .text {
-text-transform: none;
-font-weight: 400;
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -99,7 +131,7 @@ color: #212121;
 .employee {
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
@@ -111,4 +143,24 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
+}
+.portfolio-header {
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio-text {
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.adress {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+font-style: normal;
 }
